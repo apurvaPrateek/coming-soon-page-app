@@ -84,14 +84,16 @@ button img {
 
 @keyframes rocketAnimation {
     0% {
-      transform: translateY(100%);
+      /* transform: translateY(100%); */
+      bottom: 0;
       opacity: 0;
     }
     50% {
       opacity: 0.5;
     }
     100% {
-      transform: translateY(-300%);
+      /* transform: translateY(-300%); */
+      bottom: 105%;
       opacity: 1;
     }
   }
